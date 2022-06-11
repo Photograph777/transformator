@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Mulish;
+}
+main{
+    position: relative;
+    height: 100vh;
+}
+.indicator{
+    position: absolute;
+    top: 400px;
+    left: 50px;
+}
+.hr{
+   margin:20px 5px;
+   border: solid 4px white; 
+   border-radius: 4px;
+   width: 30px;
+   transition: 0.3s;
+}
+.hr-1:hover{
+    width: 80px;
+}
+.hr-2:hover{
+    width: 80px;
+}
+.hr-3:hover{
+    width: 80px;
+}
+.hr-4:hover{
+    width: 80px;
+}
+.hr-5:hover{
+    width: 80px;
+}
+.hr-6:hover{
+    width: 80px;
+}
+.hr-7:hover{
+    width: 80px;
+}
+.hr-8:hover{
+    width: 80px;
+}
+button{
+    background-color: #CC1D1D;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    width: 250px;
+    height: 60px;
+    margin-left: 170px;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.slide{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #BF2019;
+    background-color: rgb(218, 218, 211);
+    left: -100%;
+    top: 0;
+    transition: 0.4s;
+}
+button:hover .slide{
+    left: 0;
+}
+button span{
+    position: relative;
+    color: #eee9e9;
+}
+button:hover span{
+    color: #f32222;
+}
+.top-left{
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 24px;
+    color: aliceblue;
+}
+.top{
+    display: flex;
+    align-items: center;
+}
+.top-right-text{
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    right: 70px;
+}
+.top-right-image{
+    background-image: url(./images/hand-icon.svg);
+    background-position: center;
+    background-size: cover;
+    background-color: #BF2019;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.tg{
+    width: 30px;
+    fill: #eee9e9;
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+    transition: 0.4s;
+}
+.tg:hover{
+    fill: rgb(11, 0, 10);
+}
+.tg-2{
+    width: 30px;
+    fill: #eee9e9;
+    position: absolute;
+    bottom: 65px;
+    right: 15px;
+    transition: 0.4s;
+}
+.tg-2:hover{
+    fill: rgb(11, 0, 10);
+}
+.tg-3{
+    width: 30px;
+    fill: #eee9e9;
+    position: absolute;
+    bottom: 110px;
+    right: 15px;
+    transition: 0.4s;
+}
+.tg-3:hover{
+    fill: rgb(10, 9, 21);
+}
+.tg-4{
+    width: 30px;
+    fill: #eee9e9;
+    position: absolute;
+    bottom: 160px;
+    right: 15px;
+    transition: 0.4s;
+}
+.tg-4:hover{
+    fill: rgb(10, 9, 21);
+}
+.tg-5{
+    width: 30px;
+    fill: #eee9e9;
+    position: absolute;
+    bottom: 210px;
+    right: 15px;
+    transition: 0.4s;
+}
+.tg-5:hover{
+    fill: rgb(216, 8, 8);
+}
+.main-photo{
+    background-image: url(./images/conference.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.center{
+    width: fit-content;
+    height: 60%;
+    /* background-color: blue; */
+    margin: 150px auto;
+    padding: 20px;
+}
+.youtube{
+    display: flex;
+    width: 100%;
+    height: 240px;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.youtube-icon{
+    background-image: url(./images/youtube-icon.png);
+    background-position: center;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+}
+.youtube-text p{
+    font-size: 93px;
+    margin-left: 25px;
+    color: white;
+}
+.youtube-text span{
+    font-size: 20px;
+    margin-left: 25px;
+    transition: 0.4s;
+}
+.transition-span{
+    color: aliceblue;
+    transition: 0.3s;
+}
+.transition-span:hover{
+    color: red
+}
+.transition-span-2{
+    color: aliceblue;
+    transition: 0.3s;
+}
+.transition-span-2:hover{
+    color: red
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 100px;
+    grid-gap: 0 40px;
+}
+.numbers{
+    display: flex;
+}
+.numbers-image-1{
+    background-image: url(./images/instagram-icon.png);
+    background-position: center;
+    background-size: cover;
+    width: 46px;
+    height: 46px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.numbers-text{
+    color: aliceblue;
+}
+.p{
+    font-size: 40px;
+}
+.span{
+    font-size: 16px;
+}
+.numbers-image-2{
+    background-image: url(./images/vk-icon.png);
+    background-position: center;
+    background-size: cover;
+    width: 46px;
+    height: 46px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.numbers-image-3{
+    background-image: url(./images/facebook-icon.png);
+    background-position: center;
+    background-size: cover;
+    width: 46px;
+    height: 46px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.numbers-image-4{
+    background-image: url(./images/telegram-icon.png);
+    background-position: center;
+    background-size: cover;
+    width: 46px;
+    height: 46px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.p-bold{
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.heading{
+    font-size: 26px;
+    color: white;
+    margin-bottom: 0px;
+}
